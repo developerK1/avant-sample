@@ -1,0 +1,702 @@
+/* ============================= COLOURS ================================== */
+*{
+	margin : 0px;
+	padding : 0px;
+	box-sizing : border-box;
+}
+
+.green button{
+	background-color :green;
+	color : white;
+}
+.clr1 {
+    background-color:#ffc107 !important;
+	color : white;
+}
+.clr2 {
+	background-color: #d8d8d8 !important;
+	color : white;
+}
+.clr13 {
+	background-color: #9a0000 !important;
+	color : white;
+}
+.divider {
+	width : 90%;
+	height : 15px;
+	border-radius : 15px;
+	margin : 10px auto;
+}
+.border {
+	width : 96%;
+	margin : 20px auto;
+	min-height : 110px;
+	padding : 5px 3%;
+	text-align : right;
+	background-color: #ffeb3b;
+}
+.border p {
+	color :black;
+	font-weight: 700;
+	padding: 1%;
+	font-size: 18px;
+}
+/* ============================= COLOURS ================================== */
+/* ============================= MODAL ================================== */
+
+.modal-content {
+	background-color : #ffeb3b!important;
+	color : black;
+	font-weight : 700;
+}
+.modal-open .modal {
+	background-color :transparent !important;
+}
+.modal-header {
+	flex-direction : column;
+}
+.modal-header .close,
+.modal-footer button {
+	width : 100px;
+	height : 40px ;
+	line-height : 0px;
+	text-align :center;
+	border : 3px solid red;
+	background-color: black;
+	color :white;
+}
+.modal-header .close {
+	position : absolute ;
+	top : 30px;
+	right : 30px;
+}
+.modal form button {
+	width : 180px;
+	height : 40px;
+	border-radius : 8px;
+	text-align :center;
+}
+.modal-header .close,
+.modal form button,
+.modal-footer button {
+	transition : all 0.6s ease-in-out;
+	outline : none;
+}
+
+/* ============================= MODAL ================================== */
+/* ============================= welcome ================================== */
+#welcome {
+	min-height: 64vh;
+	text-align :center;
+	padding: 6% 1% 1% 1%;
+}
+#welcome .welcome-p {
+	font-style : italic;
+}
+#welcome h3 {
+	margin-bottom : 32px;
+}
+#welcome p {
+	font-size : 22px;
+}
+/* ============================= welcome ================================== */
+/* ============================= DISPLAY ================================== */
+#display .img-wrapper {
+	position :relative;
+	overflow : hidden;
+	margin-bottom: 15px;
+}
+#display .overlay {
+	position :absolute;
+	display : none;
+	cursor : pointer;
+	top:0px;
+	left : 0px;
+	height : 100%;
+	width : 100%;
+	background-color :#0000007a;
+	text-align: center;
+}
+#display aside .overlay h4{
+	color : white;
+}
+#display aside h4 {
+    margin: 15px;
+    font-size: 30px;
+    color: #d8a50a;
+    font-family: 'Assistant', sans-serif,'Oswald';
+    font-weight: 600;
+}
+#display aside p{
+color: #736934;
+text-align: center;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 18px;
+}
+#display .overlay a {
+	background: #ffff0057;
+}
+/* ============================= DISPLAY ================================== */
+/* ============================= PORTFOLIO ================================== */
+#portfolio h1{
+	text-align: center;
+  font-weight: 700;
+  line-height: 5px;
+  text-shadow: 2px 3px 0px #916656;
+  background-color: #ffeb3b;
+  padding: 4% 0px;
+  margin-bottom: -30px;
+}
+/* ============================= PORTFOLIO ================================== */
+/* ============================= WHAT WE DO ================================== */
+#what-we-do {
+	padding: 2% 1%;
+	margin : 10px;
+	text-align :center;
+}
+#what-we-do h3 {
+	 margin: 15px 15px 48px 15px;
+}
+#what-we-do h5 {
+  font-size: 26px;
+  color: #d8a50a;
+}
+/* ============================= WHAT WE DO  ================================== */
+/* ============================= NEWS ================================== */
+#news-update {
+	padding: 3% 5%;
+}
+#news-update h3{
+	padding: 3% 5%;
+	margin : 3%;
+}
+#news-update h4{
+	text-decoration : underline;
+	margin : 3% 0px;
+}
+#news-update article {
+	min-height : 72vh;
+	display :flex;
+	flex-direction :column;
+}
+#news-update a {
+    transition: all 0.5s ease-in;
+    width: 165px;
+    height: 46px;
+}
+#news-update img {
+	height : 335px;
+}
+/* ============================= NEWS ================================== */
+/* ============================= TESTIMONILAS ================================== */
+#testimons {
+	width : 100%;
+	min-height : 86vh;
+	background-color : black;
+}
+#testimons #testimonials{
+	width : 60%;
+	height : 420px;
+	border : 5px solid purple;
+}
+#testimons #testimonials .carousel-item{
+	background-color : white;
+	height : 420px;
+	width : 100%;
+	padding : 0px 3%;
+	text-align : center;
+}
+#testimons #testimonials .carousel-item .centerfy{
+	height : 100%;
+	width : 100%;
+}
+#testimons #testimonials .carousel-indicators li{
+	background-color : black !important;
+	width : 30px;
+	height : 30px;
+	border-radius : 1%;
+}
+#testimonials img {
+	width : 120px;
+	height : 120px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+	border : 7px solid #dadada;
+	border-radius : 45%;
+}
+#testimonials .name {
+	height : 80%;
+	font-style : italic;
+	font-size : 18px;
+}
+#testimons h3 {
+	margin: 32px;
+}
+#testimons p {
+	margin-top : -10px;
+	color: #776606;
+  font-weight: 700;
+  font-family: monospace;
+}
+/* ============================= TESTIMONIALS ================================== */
+/* =============================  IMAGES ================================== */
+#display img {
+	height : 100%;
+	width : 100%;
+	border : 14px solid #c4832373;
+}
+
+.move-up-icon img {
+	height : 50px;
+	width : 50px;
+	transition : all 0.4s ease-in-out;
+	transform : rotate(180deg);
+	border-radius : 50%;
+	opacity : 0.7;
+}
+/* ============================= IMAGES ================================== */
+/* =============================  BUTTONS ================================== */
+.butn {
+	width: 165px;
+  height: 46px;
+	cursor : pointer;
+	padding : 2% 0%;
+	border-radius : 8px;
+	text-align :center;
+	transition : all 0.5s ease-in-out;
+	background-color: black;
+	color :gold;
+}
+
+/* =============================  ================================== */
+/* ============================= BOOKING FORM ================================== */
+#reservation {
+	width : 100%;
+	min-height: 100vh;
+	display :flex;
+	background: url("../includes/nature.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#book-form {
+	width : 340px;
+	margin : auto;
+	border : 5px solid red;
+}
+#book-form .form-fields {
+	height : 12vh;
+	justify-content : space-evenly;
+	border-bottom : 4px solid red;
+	width : 90%;
+	margin : 0px auto;
+}
+#book-form .columned {
+	height : 12vh;
+}
+#reservation #book-form input {
+	height: 35px;
+	width: 80%;
+	text-align: center;
+}
+#reservation #book-form label {
+	font-weight: 700;
+    font-style: oblique;
+    margin-top: 5px;
+    font-size: 20px;
+    color: d7b34b;
+    color: #dadada;
+    background: #00000069;
+    width: 100%;
+    text-align: center;
+}
+#book-form .columned button{
+	width : 130px;
+	height : 40px;
+	cursor : pointer;
+	transition: all 0.5s ease-in-out;
+}
+#reservation form .note {
+	min-height: 14vh !important;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width : 90%;
+	margin : 0px auto;
+	border-bottom : 4px solid red;
+}
+ #reservation form textarea {
+	 width : 90%;
+	 overflow-x: hidden;
+ }
+/* =============================  ================================== */
+/* =============================  ================================== */
+.show-btn {
+	transition: all 0.5s ease-in;
+	width : 180px;
+	border-radius: 8px;
+	width: 165px;
+  height: 46px;
+	background-color: black;
+	color :gold;
+}
+#adress {
+	padding: 2% 0%;
+	background-color : #2727274d;
+}
+#adress .adress {
+	display :flex;
+	justify-content : center;
+	flex-direction : column;
+	align-items :center;
+	background-color : rgba(255,152,0,1.1);
+	color :white;
+	font-weight : 600;
+	font-size : 20px;
+}
+#adress form {
+	padding : 4%;
+	font-weight : 700;
+	font-size : 18px;
+	display :flex;
+	flex-direction : column;
+	justify-content : space-around;
+	color : #705300c9;
+	text-transform :uppercase;
+	background-color: #9d9d9da8;
+	border-radius: 15px;
+}
+#adress form .form-group{
+	margin : 10px 10px 20px 10px !important;
+}
+#adress .adress button , #adress form button{
+	width : 160px;
+	height : 50px;
+	margin : 10px;
+}
+#adress .adress button {
+	background-color :black;
+	color :white;
+	background-color : black !important;
+	transition : all 0.7s ease-in-out !important;
+}
+#adress form button {
+	transition : all 0.7s ease-in-out !important;
+	background-color: #dadada;
+}
+#adress form button:hover {
+	background-color : black !important;
+	color :white !important;
+	font-weight : 500!important;
+	border : 3px solid orange !important;
+	transition : all 0.78s ease-in-out !important;
+}
+#adress .adress .btn:hover{
+	background-color : white !important;
+	color :black !important;
+	font-weight : 500!important;
+	border : 3px solid black !important;
+	transition : all 0.78s ease-in-out !important;
+}
+#adress h3 {
+	font-size: 30px !important;
+	margin : 15px;
+}
+.show:hover {
+	background: #f5e23f;
+	color: white;
+	border-radius: 0px 0px 3px 3px;
+	border-bottom: 2px black solid;
+}
+
+#display .overlay a:hover {
+	background: #d26c484d !important;
+	color :yellow !important;
+}
+.move-up-icon img:hover {
+	transform : rotate(0deg);
+	opacity : 1;
+}
+/* ============================= ADRESS  ================================== */
+/* ============================= FOOTER ================================== */
+footer #quick-links {
+	width: 100%;
+	min-height: 13vh;
+	background : #f5e23f;
+}
+footer #quick-links a {
+	width : 165px;
+	margin : 8px;
+	height: 40px;
+}
+footer #quick-links button {
+	height: 40px;
+	width : 165px;
+	font-weight: 600;
+	transition: all 0.75s ease;
+	border-radius: 8px;
+}
+footer #quick-links .one {
+	background-color : #dadada;
+	color :black;
+}
+footer #quick-links .two {
+	background-color :black ;
+	color : white;
+}
+footer #quick-links .three {
+	background-color : green;
+	color :#dadada;
+}
+footer #quick-links .one:hover {
+	background-color : black;
+	color :white;
+	border-bottom: 1.5px solid #dadada;
+}
+footer #quick-links .two:hover {
+	background-color : green;
+	color :#dadada;
+	border-bottom: 1.5px solid #dadada;
+}
+footer #quick-links .three:hover {
+	background-color : #dadada;
+	color :black;
+	border-bottom: 1.5px solid black;
+}
+footer #quick-links button:hover {
+	letter-spacing: 2px;
+	border-radius: 0px 0px 5px 5px;
+}
+footer p {
+	text-align: center;
+	background-color: black;
+	padding: 3% 1%;
+	color : white;
+}
+footer p span a {
+	color : #dadada;
+}
+footer p span a:hover {
+	text-decoration: underline;
+	border-bottom: 1px solid #0e0e0e;
+}
+/* ============================= FOOTER ================================== */
+/* ============================= JAVASCRIPT CLASSES ================================== */
+#booking-page {
+	width : 100%;
+	height : 100%;
+
+	position : relative;
+}
+
+#booking-page .message-modal {
+	width : 100%;
+	height : 100vh;
+	background-color : black;
+	color : white;
+	display : none;
+
+	position : absolute;
+	top : 0%;
+	left : 0%;
+}
+
+#booking-page .message-modal .wrapper {
+	margin : auto;
+	border : 8px solid orange;
+	background-color : #000000eb;
+	width : 460px;
+	height : 360px;
+	font-size : 215%;
+	text-align :center;
+}
+#booking-page .message-modal .wrapper p {
+	margin : 15px;
+}
+#booking-page .message-modal button {
+    width: 141px;
+    height: 40px;
+    margin: 28px;
+    border-radius: 5px;
+	transition : all 0.5s ease;
+	outline : none;
+	cursor : pointer;
+}
+#room-book {
+	width : 100%;
+	height: 100vh;
+	display: flex;
+	background: url("../image/gallery/rose.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #d8a50a;
+	background-blend-mode: multiply;
+}
+#room-book h3 {
+    font-size: 92px;
+    color: white;
+    text-shadow: 3px 2px 3px gold;
+}
+#room-book p {
+    font-size: 49px;
+    color: white;
+    text-shadow: 3px 2px 3px gold;
+    margin: 41px auto -11px auto;
+    font-weight: 700;
+    font-style: italic;
+    font-family: assistant;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-decoration-thickness: 5px;
+}
+#room-book div {
+	margin : auto;
+	width : 100%;
+	height: 30vh;
+	justify-content: space-around;
+}
+#room-book div button {
+    transition: all 0.5s ease-out;
+    background-color: #000000;
+    width: 150px;
+    height: 56px;
+    margin-top: 30px;
+    border-radius: 9px;
+    color: darkgoldenrod;
+    font-weight: 900;
+    font-size: 17px;
+}
+#room-book div button:hover {
+    background-color: #e9d313;
+    color: rgb(255, 255, 255);
+	letter-spacing: 1.5px;
+}
+#log-in{
+	height : 100vh;
+	box-sizing : border-box;
+	width : 100%;
+	display :flex;
+}
+#log-in .login {
+	margin : auto;
+	max-width : 480px;
+	border: 3px solid red;
+}
+#log-in .login form{
+	width : 400px;
+	height : 200px;
+	display :flex;
+	flex-direction: column;
+	justify-content : space-evenly;
+	align-items :center;
+}
+#log-in .login form input{
+	width : 80%;
+}
+
+
+/* =============================  ================================== */
+/* ============================= JAVASCRIPT CLASSES ================================== */
+
+.img-borders {
+	border : 5px solid orange;
+	transition : all 1.5s ease;
+	transform : scale(1.5);
+}
+
+.animi {
+	animation : animib 3s ease;
+}
+
+
+
+@keyframes animib {
+	0% {
+		transform : rotate(180%);
+	}
+	50% {
+		transform : rotate(380%);
+	}
+	100% {
+		transform : rotate(0%);
+	}
+}
+
+.background-remain {
+	display :none;
+	width : 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+/* =============================  ================================== */
+/* ============================= JAVASCRIPT CLASSES ================================== */
+@media(max-width : 1200){
+	#news-update img {
+		height : 290px;
+	}
+}
+@media(max-width : 950){
+	#news-update img {
+		height : 250px;
+	}
+}
+@media(max-width : 760){
+	#news-update img {
+		height : 335px;
+	}
+}
+@media (max-width: 662px){
+	#testimons #testimonials .carousel-item {
+		height: 490px;
+	}
+}
+@media (max-width: 562px){
+  #portfolio h1 {
+    line-height: 40px !important;
+  }
+	#testimons #testimonials {
+    height : auto !important;
+    width : 98% !important;
+  }
+	footer #quick-links aside {
+		flex-direction: column;
+	}
+	#testimons #testimonials .carousel-item {
+		height: 490px;
+	}
+	#news-update img {
+		height : 250px;
+		margin : 8px 0px
+	}
+}
+@media (max-width: 462px){
+	.contacts {
+		flex-direction: column;
+		height: 14vh;
+		justify-content: center;
+		align-items: center;
+		font-size: 22px !important;
+	}
+	.socialie-icon {
+		position: inherit;
+		padding: 0%;
+		margin :0px;
+		right: 0px;
+		transform: translateY(-10px);
+	}
+}
+@media (max-width: 390px){
+  h3 {
+    line-height: 40px;
+  }
+  #news-update img {
+		height : 191px;
+	}
+}
+
+#map iframe {
+	width : 100% !important;
+}

@@ -1,0 +1,392 @@
+ /*  ==================BASICS ====================== */
+ .material-icons {
+    font-size: 92px !important;
+    color: #f7f7ac;
+    margin: 15px;
+}
+ html {
+	scroll-behavior: smooth;
+ }
+ .centerfy {
+	 display :flex;
+	 justify-content : center;
+	 align-items :center;
+ }
+ .horizontal-center {
+	 display :flex;
+	 justify-content : center;
+	 align-items :center;
+	 flex-direction :column;
+ }
+.btn-hover {
+  background-color : #6b5a29 !important;
+  color :white;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  border : white 2px solid;
+}
+header .contacts .p:hover {
+	color : white;
+	text-decoration :underline;
+	cursor : pointer;
+}
+ .columned {
+	display :flex;
+	flex-direction: column;
+	justify-content : center;
+	align-items :center;
+ }
+
+ header {
+	color :white;
+	border-bottom : 15px solid black;
+	 position :relative;
+   background-color: black;
+ }
+ header .contacts {
+	display :flex;
+	color :#d7b34b;
+	min-height: 45px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top : 2px;
+ }
+ header .contacts a p{
+   	color :#d7b34b !important;
+ }
+ main {
+	padding : 0px;
+	margin : 0px ;
+	box-sizing : border-box;
+ }
+ .socialie-icon {
+	 height : 100%;
+	 padding-bottom : 10px;
+	 margin : 5px;
+	 position : absolute;
+	 right : 20px;
+ }
+.socialie-icon img {
+	 width : 30px;
+	 height : 30px;
+	 margin-right : 3px;
+	 border : 1px solid red;
+	 cursor : pointer;
+ }
+  a:hover {
+	transition : 0.6s;
+
+ }
+ .slide-Item3 h2 , .slide-Item2 h2 {
+	 font-size : 45px;
+	 font-weight : 780;
+	 letter-spacing : 1.5px;
+	 margin-bottom : 20px;
+ }
+ .navbar-toggler-icon {
+	 background-color : #d6c2c2 !important;
+	margin :2px !important;
+ }
+ .navbar-toggler {
+	  margin-bottom : 5px !important;
+ }
+  form button {
+	 border:2px solid black !important;
+	 color :black !important;
+	 font-weight : 700 !important;
+  }
+ form button:hover {
+	  background-color :black !important;
+	 color :rgb(152, 171, 11) !important;
+	 border-radius : 8px ;
+	transition : 0.6s;
+	border : none;
+ }
+ ul li a {
+	 color : yellow !important ;
+	 text-align : center;
+	  color :white !important;
+	  font-weight : 700;
+ }
+
+ .at-page {
+	 background-color :black !important;
+	 color :rgb(209, 157, 37) !important;
+	 border-radius : 8px ;
+	 transition :5s;
+ }
+ .activeH  {
+	 background-color :black !important;
+	 color :rgb(234, 186, 14) !important;
+	 border-radius : 8px ;
+	transition : 0.6s;
+	margin : 2px;
+}
+.contact-icon {
+	width : 75px;
+	height : 75px;
+	margin : 0px auto;
+}
+.navbar-brand img {
+	background-color : blak;
+	width : 70px;
+	height : 70px;
+	border : 3px solid black;
+}
+.carousel-control-next, .carousel-control-prev {
+	width:100px !important;
+	height:80px !important;
+	top : 50%;
+	transform : translateY(-50%)
+}
+nav ul li a button {
+	width : 190px;
+	height : 50px;
+	border : 2px solid #ffc107;
+}
+section {
+	width: 100%;
+	padding : 1% 0%;
+}
+main {
+	position :relative;
+}
+.move-up-icon {
+	background-color :rgb(255, 174, 0);
+	border-radius : 50%;
+
+	position :fixed ;
+	right : 30px;
+	bottom :30px;
+
+	display : none;
+	cursor:pointer;
+	opacity : 0.7;
+}
+.move-up-icon:hover {
+	opacity : 1;
+}
+h3 {
+  font-style: italic;
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+	line-height: 5px;
+  text-shadow: 2px 3px 0px #ffbd00;
+}
+#hamburger {
+	width : 70px;
+	height : 53px;
+	border : 5px solid black;
+	align-items :center;
+	padding : 2%;
+	justify-content : space-around;
+	background-color :black;
+	transition : all 0.5s ease;
+}
+#hamburger .lines {
+	width : 44px;
+	background-color :#d7b34b;
+	height : 8px;
+	transition : all 0.5s ease;
+}
+#hamburger:hover {
+	border : 5px solid white ;
+}
+.style1 {
+	transform :translateY(15px) rotate(33deg);
+}
+.style2 {
+	transform : translateX(-5000%);
+}
+.style3 {
+	transform :translateY(-13px) rotate(-33deg);
+}
+/*============================= SILDING SECTION / CAROUSEL --------- */
+#carouselControls .carousel-inner {
+	height :100vh !important;
+	border-bottom : 20px solid black;
+	background-color: #000000;
+}
+#carouselControls .slide-Item1 {
+	background : url("../image/gallery/wedding-hero1.jpg") no-repeat;
+	background-size : cover;
+	background-position : center center;
+ }
+#carouselControls .slide-Item3 {
+	background : url("../image/gallery/wedding-hero2.jpg") no-repeat;
+	background-size : cover;
+	background-position : center center;
+ }
+#carouselControls .slide-Item2 {
+	background : url("../image/gallery/accomodation-hero.jpg") no-repeat;
+	background-size : cover;
+	background-position : center center;
+}
+.slide-Item1 ,.slide-Item2 , .slide-Item3{
+	 height : 100% ;
+	filter : brightness(75%);
+}
+#carouselControls .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carouselControls .wrapper .content {
+    color: #FFC107;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#carouselControls .wrapper h1 {
+    text-shadow: 8px 5px 20px black;
+    font-size: 92px;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif,'Playfair Display', serif;
+    font-style: italic;
+}
+#carouselControls .wrapper button {
+    transition: all 0.5s ease-out;
+    background-color: #000000;
+    width: 150px;
+    height: 56px;
+    margin-top: 30px;
+    border-radius: 9px;
+    color: darkgoldenrod;
+    font-weight: 900;
+    font-size: 17px;
+}
+#carouselControls .wrapper button:hover {
+    background-color: #e9d313;
+    color: rgb(255, 255, 255);
+	letter-spacing: 1.5px;
+}
+.back-design {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 170px;
+    background-color: #e91e63;
+    transform: translateY(-50%);
+    z-index: -10;
+    border-radius: 0px 0px 29px 0px;
+}
+
+ /* ================== SECTIONS BY IDs ========================== */
+
+#contact-first {
+	background-color : grey;
+}
+
+#contact-first h2 {
+	text-align :center;
+}
+
+/* ===============  portfolio    ======================== */
+
+.portfolio .port-cont {
+  overflow: hidden;
+}
+.portfolio .port-cont img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+  width: 100%;
+}
+.portfolio .port-cont img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+
+ /* =========================phone scalling ============ */
+@media (max-width: 1200px){
+	#carouselControls aside h1{
+		width : 80%;
+	}
+}
+@media (max-width: 967px){
+  #welcome img {
+    width : 90%;
+  }
+}
+@media (max-width: 892px){
+  .navbar-nav ul li {
+    width: 220px !important;
+  }
+}
+
+@media (max-width: 762px){
+	 .slide-Item3 h2 , .slide-Item2 h2 {
+		 text-align :center;
+	 }
+   .border .row .centerfy {
+    flex-direction: column;
+    padding-bottom: 15px;
+    text-align: center;
+   }
+   #welcome img {
+     width : 90%;
+   }
+   #carouselControls aside h1{
+		width : 96%;
+	}
+	#carouselControls aside {
+		background-attachment : scroll;
+	}
+	#carouselControls .wrapper h1 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 682px){
+	header .contacts .p{
+		display :none;
+	}
+}
+
+@media (max-width: 590px){
+	#carouselControls aside h1{
+		font-size : 326%;
+	}
+	.material-icons {
+		font-size : 100px !important;
+	}
+	#room-book h3 {
+		font-size: 50px !important;
+	}
+	#room-book p {
+		font-size: 26px !important;;
+		text-align: center ;
+	}
+}
+
+@media (max-width: 420px){
+	.navbar-brand img {
+		width: 80px;
+		height: 60px;
+	}
+	.move-up-icon img {
+		height: 30px;
+		width: 30px;
+	}
+}
+
+
+@keyframes flashy {
+	from {
+		background-color : black;
+		color : rgb(212, 166, 15);
+		text-decoration : underline;
+	}
+	to {
+		background-color : white;
+		color : black;
+	}
+}
